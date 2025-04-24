@@ -1,0 +1,24 @@
+
+{
+	"luau-lsp.ignoreGlobs": [
+	  "*.d.lua",
+	  "**/__Index__/**",
+	],
+	"luau-lsp.completion.imports.enabled": true,
+	"luau-lsp.sourcemap.autogenerate": true,
+
+	"[jsonc]": {
+	  "editor.formatOnSave": false
+	},
+
+	"[lua]": {
+		"editor.defaultFormatter": "JohnnyMorganz.stylua",
+		"editor.formatOnSave": true
+	},
+	"[luau]": {
+		"editor.defaultFormatter": "JohnnyMorganz.stylua",
+		"editor.formatOnSave": true
+	},
+
+	"stylua.targetReleaseVersion": "latest"
+  }

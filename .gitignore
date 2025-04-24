@@ -1,0 +1,21 @@
+# Project place files
+*.rbxlx
+*.rbxl
+
+.DS_Store
+
+# dependency directories
+Packages
+ServerPackages
+node_modules
+
+# build files
+sourcemap.json
+
+# project place files
+*.rbxlx
+*.rbxl
+
+# lock files
+*.lock
+package-lock.json

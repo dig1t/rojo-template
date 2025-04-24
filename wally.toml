@@ -1,0 +1,8 @@
+[package]
+name = "dig1t/rojo-template"
+version = "1.0.0"
+realm = "shared"
+registry = "https://github.com/UpliftGames/wally-index"
+private = true # this prevents accidental publishing to wally
+
+[dependencies]
