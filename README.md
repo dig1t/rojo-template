@@ -77,5 +77,14 @@ The default settings are fine for most.
 
 Your code will automatically sync with Roblox Studio when you save it in VS Code.
 
+## Wally/Packages
+This repository is set up to use **wally** for package management which is a tool for managing Lua packages in Roblox.
+
+You can add packages by running `wally add <package-name>` in your terminal or you can also edit the `wally.toml` file in the root of the project.
+
+Once you're ready to use the packages, run `wally install` in your terminal to install them!
+
+Packages will be placed into `ReplicatedStorage.Packages` by Rojo.
+
 
 ### Be sure to utilize GitHub to keep your project backed up!
