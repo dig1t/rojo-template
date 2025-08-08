@@ -28,7 +28,9 @@ jobs:
         run: wally-package-types --sourcemap sourcemap.json Packages
 
       - name: Lint with luau-lsp
-        run: luau-lsp analyze --defs=globalTypes.d.luau --sourcemap=sourcemap.json --no-strict-dm-types --ignore=Packages/** --ignore=*.spec.lua --ignore=*.spec.luau --flag:LuauTinyControlFlowAnalysis=True src
+        run: luau-lsp analyze --defs=globalTypes.d.luau --sourcemap=sourcemap.json --no-strict-dm-types --flag:LuauTinyControlFlowAnalysis=True src
+        # Replace the above line with the following if you encounter issues with wally Packages
+        # run: luau-lsp analyze --defs=globalTypes.d.luau --sourcemap=sourcemap.json --no-strict-dm-types --ignore=Packages/** --flag:LuauTinyControlFlowAnalysis=True src
 
       - name : Lint with selene
         run: selene src
