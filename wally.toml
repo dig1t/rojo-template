@@ -6,3 +6,4 @@ registry = "https://github.com/UpliftGames/wally-index"
 private = true # this prevents accidental publishing to wally
 
 [dependencies]
+Signal = "sleitnick/signal@2.0.3"
